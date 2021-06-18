@@ -1,0 +1,35 @@
+h1,
+h2,
+h3,
+p{
+    margin: 0px;
+    padding: 0px;
+}
+ul,
+li{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+} 
+address{
+    font-style: inherit;
+}
+img{
+    display: block;
+}
+body{
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    margin: 0;
+}
+button{
+    font-family: inherit;
+    border: none;
+    outline: none;
+}
