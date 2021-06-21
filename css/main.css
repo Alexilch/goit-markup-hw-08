@@ -272,7 +272,6 @@ button {
     position: sticky;
     top: 0;
     z-index: 1;
-    background-color: #ffff;
   }
   .header__mobile-menu-icon {
     width: 40px;
@@ -301,7 +300,7 @@ button {
 @media screen and (min-width: 768px) {
   .header-container {
     display: flex;
-    height: 80px;
+    height: 81px;
   }
   .header__mobile-menu-btn {
     display: none;
