@@ -76,6 +76,7 @@ button {
 .container {
   padding-left: 15px;
   padding-right: 15px;
+  overflow-x: hidden;
 }
 
 @media screen and (min-width: 480px) {
@@ -655,8 +656,7 @@ button {
     margin-bottom: 30px;
   }
   .employee-photo {
-    width: 450px;
-    height: 460px;
+    width: 100%;
   }
 }
 
@@ -676,15 +676,13 @@ button {
     margin-bottom: 30px;
   }
   .employee-photo {
-    width: 354px;
-    height: 374px;
+    width: 100%;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .employee-photo {
     width: 270px;
-    height: 260px;
   }
 }
 

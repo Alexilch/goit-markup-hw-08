@@ -15,8 +15,7 @@
         margin-bottom: 30px;
     }
     .employee-photo{
-        width: 450px;
-        height: 460px;
+        width: 100%;
     }
 }
 @media  screen and (min-width: 768px){
@@ -35,14 +34,12 @@
         margin-bottom: 30px;
     }
     .employee-photo{
-        width: 354px;
-        height: 374px;
+        width: 100%;
     }
 }
 @media screen and (min-width: 1200px){
     .employee-photo{
         width: 270px;
-        height: 260px;
     }
 }
 .employees-title{
