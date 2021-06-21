@@ -66,6 +66,10 @@
                 color: var(--hover-color);
             }
         }
+    &__link.current{
+        color: var(--hover-color);
+    }
+
     &__tel-link{
         font-weight: 500;
         font-size: 34px;
